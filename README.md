@@ -17,7 +17,8 @@ https://www.statista.com/statistics/283511/average-monthly-churn-rate-top-wirele
 - 21 Features in the dataset
 
 
-![churn.png](attachment:churn.png)
+
+<img src="image/churn.png" />
 
 # Methods
 
@@ -35,14 +36,15 @@ https://www.statista.com/statistics/283511/average-monthly-churn-rate-top-wirele
 - Recall score : 0.89
 - Accuracy score: 0.67
 
-![baseline.png](attachment:baseline.png)
+
+<img src="image/baseline.png" />
 
 # Final Model
 
 - Recall score: 0.84
 - Accuracy score: 0.96
 
-![finalmodel.png](attachment:finalmodel.png)
+<img src="image/finalmodel.png" />
 
 # Feature Importance
 
@@ -52,7 +54,7 @@ https://www.statista.com/statistics/283511/average-monthly-churn-rate-top-wirele
 - Voicemail plan
 - International plan
 
-![feature_importance.png](attachment:feature_importance.png)
+<img src="image/feature_importance.png" />
 
 # Conclusions
 
