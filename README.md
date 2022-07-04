@@ -24,7 +24,7 @@ https://www.statista.com/statistics/283511/average-monthly-churn-rate-top-wirele
 
 - Check if any missing values and convert boolean columns data into binary data
 - Use Logistics Regression as baseline model
-- Use SMOTE to improve the performance of imbalanced dataset
+- Use SMOTEC to improve the performance of imbalanced dataset
 - Use different types of models to evaluate
 - Choose the best model and tune the parameters
 - Use final model to identify customer churn
@@ -33,22 +33,22 @@ https://www.statista.com/statistics/283511/average-monthly-churn-rate-top-wirele
 
 # Baseline Model
 
-- Recall score : 0.89
-- Accuracy score: 0.67
+- Recall score : 0.23
+- Accuracy score: 0.87
 
 
 <img src="image/baseline.png" />
 
 # Final Model
 
-- Recall score: 0.84
+- Recall score: 0.85
 - Accuracy score: 0.96
 
 <img src="image/finalmodel.png" />
 
 # Feature Importance
 
-#### First 4  highest weight in the dataset
+#### Top 4  highest weight in the dataset
 - Customer service calls
 - Total day minutes
 - Voicemail plan
@@ -58,7 +58,7 @@ https://www.statista.com/statistics/283511/average-monthly-churn-rate-top-wirele
 
 # Conclusions
 
-- Use the final model to predict the customer churn rate, 84% customer churn will be predicted, with accuracy 96% 
+- Use the final model to predict the customer churn rate, 85% customer churn will be predicted, with accuracy 96% 
 - Conduct customer complaint analysis
 - Improve the voicemail plan and international plan services
 - Review rates, minutes and charges for all plan
